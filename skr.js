@@ -1,4 +1,4 @@
-
+const pozdravGumb = document.getElementById("pozdravGumb");
 
 if (pozdravGumb) {
     pozdravGumb.addEventListener("click", () => {
@@ -11,6 +11,22 @@ if (pozdravGumb) {
 
         rezultat.classList.toggle("uspesno", !!ime);
         
+    });
+}
+
+const kontaktObrazec = document.getElementById("kontaktObrazec");
+
+if (kontaktObrazec) {
+    kontaktObrazec.addEventListener("submit", (dogodek) => {
+        dogodek.preventDefault();
+
+        const ime = document.getElementById("ime").value.trim();
+        const rezultat = document.getElementById("obrazecRezultat");
+
+        rezultat.textContent =
+            `Hvala, ${ime}! Vaše povpraševanje je pripravljeno.`;
+
+        rezultat.classList.add("uspesno");
     });
 }
 
