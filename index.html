@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="sl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Varstvo ljubljenčkov | Domov</title>
+    <link rel="stylesheet" href="obl.css">
+    <script src="skr.js" defer></script>
+</head>
+<body>
+    <header class="glava">
+        <h1>Varstvo ljubljenčkov</h1>
+        <p>Najboljša izbira za vašega ljubljenčka</p>
+    </header>
+
+    <nav class="navigacija">
+        <ul>
+            <li><a href="index.html" aria-current="page">Domov</a></li>
+            <li><a href="storitve.html">Naše storitve</a></li>
+            <li><a href="kontakt.html">Kontakt</a></li>
+        </ul>
+    </nav>
+
+    <main class="vsebina">
+        <section class="abc">
+            <div>
+                <h2>Vaš ljubljenček, naša skrb!</h2>
+                <p>Ko ste v službi, na potovanju ali odsotni, poskrbimo, da se vaš ljubljenček počuti varno, sproščeno in ljubljeno.</p>
+                <a class="gumb" href="kontakt.html">Rezerviraj varstvo</a>
+            </div>
+            <img class="glavna-slika"
+                 src="https://images.unsplash.com/photo-1552053831-71594a27632d?auto=format&fit=crop&w=900&q=80"
+                 alt="Zlati prinašalec na prostem">
+        </section>
+
+        <section class="kartice">
+            <article class="kartica">
+                <h3>Varstvo psov</h3>
+                <p>Sprehodi, igra, hranjenje in druženje.</p>
+            </article>
+            <article class="kartica">
+                <h3>Varstvo mačk</h3>
+                <p>Hranjenje, čiščenje in pozornost za mačke.</p>
+            </article>
+            <article class="kartica">
+                <h3>Individualna skrb</h3>
+                <p>Oskrba, prilagojena potrebam vaše živali.</p>
+            </article>
+        </section>
+
+        <section class="obvestilo">
+            <h2>Zakaj izbrati nas?</h2>
+            <ul>
+                <li>Prijazen in odgovoren pristop.</li>
+                <li>Prilagajanje potrebam živali.</li>
+                <li>Dogovor o času in vrsti varstva.</li>
+            </ul>
+            <p>Oglejte si naš <a href="storitve.html">cenik storitev</a>.</p>
+        </section>
+
+        <section class="kartica">
+            <h2>Pozdrav za vašega ljubljenčka</h2>
+            <label for="imeZivali">Ime vašega ljubljenčka:</label>
+            <input id="imeZivali" type="text">
+            <button type="button" id="pozdravGumb" class="gumb">Ustvari pozdrav</button>
+            <p id="pozdravRezultat" aria-live="polite"></p>
+        </section>
+    </main>
+
+    <footer class="noga">
+        <p>Varstvo ljubljenčkov</p>
+        <p>Fotografija: <a href="https://unsplash.com/">Unsplash</a></p>
+    </footer>
+    <script src="skr.js"></script>
+</body>
+</html>
