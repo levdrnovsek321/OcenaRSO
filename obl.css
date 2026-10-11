@@ -118,6 +118,15 @@ h3 {
 }
 
 
+.uspesno {
+    color: #183c2d;
+    font-weight: bold;
+    background: #e4f2e7;
+    padding: 10px;
+    border-radius: 6px;
+}
+
+
 
 
 .obvestilo {
